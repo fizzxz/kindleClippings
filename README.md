@@ -1,6 +1,6 @@
 # KindleClippings
 
-_A fork of [hadynz/Kindle-clippings][1]. 
+_A fork of [hadynz/Kindle-clippings][1]._
 
 Package for parsing a MyClippings.txt file obtained from a Kindle and organizing it
 
