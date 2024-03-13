@@ -1,8 +1,6 @@
 # KindleClippings
 
-_A fork of [DarylSerrano/KindleClippings][1]. Modified to fix bugs and add extra functionaliy:_
-_\* Parse highligihts that span multiple lines_
-_\* Organise highlights into an array of books with a nested array of entries_
+_A fork of [hadynz/Kindle-clippings][1]. 
 
 Package for parsing a MyClippings.txt file obtained from a Kindle and organizing it
 
@@ -29,5 +27,5 @@ console.log(JSON.stringify(parsedEntries[0].toJSON()));
 var entriesParsed =
   kindleClippings.organizeKindleEntriesByBookTitle(parsedEntries);
 ```
+[1]: https://github.com/hadynz/kindle-clippings
 
-[1]: https://github.com/DarylSerrano/KindleClippings
